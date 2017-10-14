@@ -1,13 +1,13 @@
 1. Americano: Half Espresso, half hot water
 2. Breve: Half Espresso, half steamed milk and cream
-3. Cold-Brew Coffee: 
-4. Cappuccino:
-5. Drip Coffee:
+3. Cappuccino: 1/3 espresso, 1/3 milk, 1/3 foam
+4. Cold-Brew Coffee: All Cold Brew Coffee
+5. Drip Coffee: It's coffee...
 6. Espresso: 1 Shot of Espresso
-7. Flat White
-8. Frappe:
-9. Hot Chocolate:
-10. Iced Coffee:
-11. Latte:  
-12. Macchiato: 
-13. Mocha: 
+7. Flat White: 1/2 espresso, 1/2 steamed milk, velvety small micro-foam only on top
+8. Frappe: 1 shot espresso (15%), sugar water (10%), Cold water and blended ice(60%), Coffee Foam (15%)
+9. Hot Chocolate: Hot choclate 
+10. Iced Coffee: All iced coffee
+11. Latte: 1 part espresso, 2 parts steamed milk, 1 part milk foam
+12. Macchiato: 1 part espresso, 1 part milk foam
+13. Mocha: 1 part espresso, 1 part choc syrup or hot chocolate, 1 part steamed milk, topped with whipped cream
