@@ -1,3 +1,9 @@
+body{
+    height:100%;
+    background-color: #EBDEBA;
+    font-family: SuperClarendon;
+}
+
 .slider {
     -webkit-appearance: none;
     width: 200px;
@@ -45,4 +51,34 @@
 
 .coffee-type {
   display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.coffee-image {
+  width: 50%;
+}
+
+.coffee-info {
+  position:absolute;
+  top:0;
+  bottom:0;
+  right: 0;
+  width: 50%;
+  background-color: #FBB643;
+}
+
+.coffee-title {
+  text-align: center;
+  padding-top: 80px;
+  font-weight: normal;
+  letter-spacing: 10px;
+}
+
+.title-line {
+  width: 70%;
+  height: 1px;
+
 }
