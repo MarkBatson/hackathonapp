@@ -81,58 +81,58 @@ function display() {
     coffeeType[i].style.display = "none";
   }
 
-  if ((temp=="frozen" || temp==null) && (sweetness>80 || sweetness==null) && ((20<strength && strength<40) || strength==null) && (flavored || flavored==null)) {
+  if ((temp=="frozen" || temp==null) && (sweetness>=80 || sweetness==null) && ((20<=strength && strength<=40) || strength==null) && (flavored || flavored==null)) {
     document.getElementById("frappe").style.display = "inherit";
   }
-  if ((temp=="hot" || temp==null) && ((sweetness<20 || sweetness==null)) && ((50<strength && strength<70) || strength==null) && (!flavored || flavored==null)) {
+  if ((temp=="hot" || temp==null) && ((sweetness<=20 || sweetness==null)) && ((50<=strength && strength<=70) || strength==null) && (!flavored || flavored==null)) {
     document.getElementById("drip").style.display = "inherit";
     document.getElementById("drip").textContent = "Bold Drip Coffee";
   }
-  if ((temp=="hot" || temp==null) && (sweetness<20 || sweetness==null) && ((30<strength && strength<50) || strength==null) && (!flavored || flavored==null)) {
+  if ((temp=="hot" || temp==null) && (sweetness<=20 || sweetness==null) && ((40<=strength && strength<=60) || strength==null) && (!flavored || flavored==null)) {
     document.getElementById("drip").style.display = "inherit";
     document.getElementById("drip").textContent = "Drip Coffee";
   }
-  if ((temp=="hot" || temp==null) && ((60<sweetness && sweetness<80) || sweetness==null) && ((30<strength && strength<50) || strength==null) && (flavored || flavored==null)) {
+  if ((temp=="hot" || temp==null) && ((60<=sweetness && sweetness<=80) || sweetness==null) && ((30<=strength && strength<=50) || strength==null) && (flavored || flavored==null)) {
     document.getElementById("latte").style.display = "inherit";
     document.getElementById("latte").textContent = "Flavored Latte";
   }
-  if ((temp=="hot" || temp==null) && ((40<sweetness && sweetness<60) || sweetness==null) && ((30<strength && strength<50) || strength==null) && (!flavored || flavored==null)) {
+  if ((temp=="hot" || temp==null) && ((40<=sweetness && sweetness<=60) || sweetness==null) && ((30<=strength && strength<=50) || strength==null) && (!flavored || flavored==null)) {
     document.getElementById("latte").style.display = "inherit";
     document.getElementById("latte").textContent = "Latte";
   }
-  if ((temp=="hot" || temp==null) && ((70<sweetness && sweetness<90) || sweetness==null) && ((20<strength && strength<40) || strength==null) && (flavored || flavored==null)) {
+  if ((temp=="hot" || temp==null) && ((70<=sweetness && sweetness<=90) || sweetness==null) && ((20<=strength && strength<=40) || strength==null) && (flavored || flavored==null)) {
     document.getElementById("mocha").style.display = "inherit";
   }
-  if ((temp=="cold" || temp==null) && ((50<sweetness && sweetness<70) || sweetness==null) && ((60<strength && strength<80) || strength==null) && (!flavored || flavored==null)) {
+  if ((temp=="cold" || temp==null) && ((40<=sweetness && sweetness<=60) || sweetness==null) && ((60<=strength && strength<=80) || strength==null) && (!flavored || flavored==null)) {
     document.getElementById("cold-brew").style.display = "inherit";
   }
-  if ((temp=="cold" || temp==null) && (sweetness<20 || temp==null) && ((30<strength && strength<50) || strength==null) && (!flavored || flavored==null)) {
+  if ((temp=="cold" || temp==null) && (sweetness<=20 || temp==null) && ((40<=strength && strength<=60) || strength==null) && (!flavored || flavored==null)) {
     document.getElementById("iced-coffee").style.display = "inherit";
   }
-  if ((temp=="hot" || temp == null) && (sweetness<20 || sweetness == null) && (80<strength || strength == null) && (!flavored || flavored == null)) {
+  if ((temp=="hot" || temp == null) && (sweetness<=20 || sweetness == null) && (80<=strength || strength == null) && (!flavored || flavored == null)) {
     document.getElementById("espresso").style.display = "inherit";
   }
-  if ((temp=="cold" || temp == null) && ((10<sweetness && sweetness<30) || sweetness == null) && ((60<strength && strength<80) || strength == null) && (!flavored || flavored == null)) {
+  if ((temp=="cold" || temp == null) && ((0<=sweetness && sweetness<=20) || sweetness == null) && ((60<=strength && strength<=80) || strength == null) && (!flavored || flavored == null)) {
     document.getElementById("macchiato").style.display = "inherit";
     document.getElementById("macchiato").textContent = "Iced Macchiato";
   }
-  if ((temp=="hot" || temp == null) && ((10<sweetness && sweetness<30) || sweetness == null) && ((60<strength && strength<80) || strength == null) && (!flavored || flavored == null)) {
+  if ((temp=="hot" || temp == null) && ((0<=sweetness && sweetness<=20) || sweetness == null) && ((60<=strength && strength<=80) || strength == null) && (!flavored || flavored == null)) {
     document.getElementById("macchiato").style.display = "inherit";
     document.getElementById("macchiato").textContent = "Macchiato";
   }
-  if ((temp=="hot" || temp == null) && ((40<sweetness && sweetness<60) || sweetness == null) && ((50<strength && strength<70) || strength == null) && (!flavored || flavored == null)) {
+  if ((temp=="hot" || temp == null) && ((40<=sweetness && sweetness<=60) || sweetness == null) && ((50<=strength && strength<=70) || strength == null) && (!flavored || flavored == null)) {
     document.getElementById("capp").style.display = "inherit";
   }
-  if ((temp=="hot" || temp == null) && ((10<sweetness && sweetness<30) || sweetness == null) && ((50<strength && strength<70) || strength == null) && (!flavored || flavored == null)) {
+  if ((temp=="hot" || temp == null) && ((10<=sweetness && sweetness<=30) || sweetness == null) && ((50<=strength && strength<=70) || strength == null) && (!flavored || flavored == null)) {
     document.getElementById("americano").style.display = "inherit";
   }
-  if ((temp=="hot" || temp == null) && ((40<sweetness && sweetness<60) || sweetness == null) && ((30<strength && strength<50) || strength == null) && (!flavored || flavored == null)) {
+  if ((temp=="hot" || temp == null) && ((40<=sweetness && sweetness<=60) || sweetness == null) && ((30<=strength && strength<=50) || strength == null) && (!flavored || flavored == null)) {
     document.getElementById("breve").style.display = "inherit";
   }
-  if ((temp=="hot" || temp == null) && (80<sweetness || sweetness == null) && (strength<20 || strength == null) && (flavored || flavored == null)) {
+  if ((temp=="hot" || temp == null) && (80<=sweetness || sweetness == null) && (strength<=20 || strength == null) && (flavored || flavored == null)) {
     document.getElementById("hot-chocolate").style.display = "inherit";
   }
-  if ((temp=="hot" || temp == null) && ((40<sweetness && sweetness<60) || sweetness == null) && ((40<strength && strength<60) || strength == null) && (!flavored || flavor == null)) {
+  if ((temp=="hot" || temp == null) && ((40<=sweetness && sweetness<=60) || sweetness == null) && ((40<=strength && strength<=60) || strength == null) && (!flavored || flavor == null)) {
     document.getElementById("flat-white").style.display = "inherit";
   }
 }
