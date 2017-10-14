@@ -22,13 +22,18 @@ brief overview of each type of coffee
       STRENGTH 1-10: 3
       FLAVORED/UNFLAVORED: FLAVORED
       PRICE: $-$$$: $$$
+      INFO: Frappé coffee is a Greek foam-covered iced coffee drink made from
+      instant coffee, water and sugar.
 
     Bold Drip Coffee
       COLD/HOT/FROZEN: HOT
       SWEET 1-10: 1
       STRENGTH 1-10: 6
-      FLAVORED/UNFLAVORED: UNLFLAVORED
+      FLAVORED/UNFLAVORED: UNFLAVORED
       PRICE: $-$$$: $
+      INFO:Brewed coffee is made by pouring hot water onto ground coffee beans,
+      then allowing to brew. There are several methods for doing this,
+      including using a filter, a percolator, and a French press.
 
     Regular Drip Coffee
       COLD/HOT/FROZEN: HOT
@@ -36,6 +41,9 @@ brief overview of each type of coffee
       STRENGTH 1-10: 4
       FLAVORED/UNFLAVORED: UNFLAVORED
       PRICE: $-$$$: $
+      INFO:Brewed coffee is made by pouring hot water onto ground coffee beans,
+      then allowing to brew. There are several methods for doing this,
+      including using a filter, a percolator, and a French press.
 
     Flavored Latte
       COLD/HOT/FROZEN: HOT
@@ -43,6 +51,7 @@ brief overview of each type of coffee
       STRENGTH 1-10: 4
       FLAVORED/UNFLAVORED: FLAVORED
       PRICE: $-$$$: $$
+      INFO: A latte is a coffee drink made with espresso and steamed milk.
 
     Unflavored Latte
       COLD/HOT/FROZEN: HOT
@@ -50,6 +59,7 @@ brief overview of each type of coffee
       STRENGTH 1-10: 4
       FLAVORED/UNFLAVORED: UNFLAVORED
       PRICE: $-$$$: $$
+      INFO: A latte is a coffee drink made with espresso and steamed milk.
 
     Mocha
       COLD/HOT/FROZEN: HOT
@@ -57,6 +67,10 @@ brief overview of each type of coffee
       STRENGTH 1-10: 3
       FLAVORED/UNFLAVORED: FLAVORED
       PRICE: $-$$$: $$
+      INFO: Caffè latte, caffè mocha is based on espresso and hot milk, but
+      with added chocolate, typically in the form of sweet cocoa powder,
+      although many varieties use chocolate syrup. Mochas can contain dark or
+      milk chocolate.
 
     Cold Brew
       COLD/HOT/FROZEN: COLD
@@ -64,6 +78,13 @@ brief overview of each type of coffee
       STRENGTH 1-10: 7
       FLAVORED/UNFLAVORED: UNFLAVORED
       PRICE: $-$$$: $$$
+      INFO: Cold brewing, also called cold water extraction or cold pressing,
+      is the process of steeping coffee grounds in water at cool temperatures
+      for an extended period. Coarse-ground beans are soaked in water for a
+      prolonged period of time. The water is normally kept at room temperature,
+      but chilled water is also used. The grounds are filtered out of the water
+      after they have been steeped using a paper coffee filter, a fine metal
+      sieve, or a French press.
 
     Iced Coffee
       COLD/HOT/FROZEN: COLD
@@ -71,6 +92,7 @@ brief overview of each type of coffee
       STRENGTH 1-10: 4
       FLAVORED/UNFLAVORED: UNFLAVORED
       PRICE: $-$$$: $
+      INFO: Chilled coffee, typically sweetened or flavored and served over ice.
 
     Espresso
       COLD/HOT/FROZEN: HOT
@@ -78,6 +100,7 @@ brief overview of each type of coffee
       STRENGTH 1-10: 10
       FLAVORED/UNFLAVORED: UNFLAVORED
       PRICE: $-$$$: $
+      INFO: strong black coffee made by forcing steam through ground coffee beans.
 
     Macchiato
       COLD/HOT/FROZEN: HOT
@@ -85,6 +108,7 @@ brief overview of each type of coffee
       STRENGTH 1-10: 7
       FLAVORED/UNFLAVORED: UNFLAVORED
       PRICE: $-$$$: $
+      INFO: Espresso with a dash of frothy steamed milk.
 
     Cold Macchiato
       COLD/HOT/FROZEN: COLD
@@ -92,6 +116,7 @@ brief overview of each type of coffee
       STRENGTH 1-10: 5
       FLAVORED/UNFLAVORED: UNFLAVORED
       PRICE: $-$$$: $
+      INFO: Espresso with a dash of frothy steamed milk.
 
     Cappuccino
       COLD/HOT/FROZEN: HOT
@@ -99,6 +124,7 @@ brief overview of each type of coffee
       STRENGTH 1-10: 6
       FLAVORED/UNFLAVORED: UNFLAVORED
       PRICE: $-$$$: $$
+      INFO: coffee made with milk that has been frothed up with pressurized steam.
 
     Americano
       COLD/HOT/FROZEN: HOT
@@ -106,6 +132,9 @@ brief overview of each type of coffee
       STRENGTH 1-10: 6
       FLAVORED/UNFLAVORED: UNFLAVORED
       PRICE: $-$$$: $
+      INFO: Americano is a style of coffee prepared by brewing espresso with
+      added hot water, giving it a similar strength to, but different flavor
+      from drip coffee.
 
     Breve
       COLD/HOT/FROZEN: HOT
@@ -113,6 +142,9 @@ brief overview of each type of coffee
       STRENGTH 1-10: 4
       FLAVORED/UNFLAVORED: UNFLAVORED
       PRICE: $-$$$: $
+      INFO: Caffe Breve is an American variation of a latte: a milk-based
+      espresso drink using steamed half-and-half mixture of milk and cream
+      instead of milk.
 
     Hot Chocolate
       COLD/HOT/FROZEN: HOT
@@ -120,6 +152,8 @@ brief overview of each type of coffee
       STRENGTH 1-10: 1
       FLAVORED/UNFLAVORED: FLAVORED
       PRICE: $-$$$: $$
+      INFO: a hot drink made with milk or water and chocolate or powdered
+      chocolate.
 
     Flat White
       COLD/HOT/FROZEN: HOT
@@ -127,3 +161,5 @@ brief overview of each type of coffee
       STRENGTH 1-10: 5
       FLAVORED/UNFLAVORED: UNFLAVORED
       PRICE: $-$$$: $$
+      INFO: A flat white is an espresso-based coffee drink. It is prepared by
+      pouring microfoam into a single or double shot of espresso.
