@@ -4,6 +4,11 @@ var strength;
 var flavored;
 var unflavored;
 
+temp = null;
+sweetness = null;
+strength = null;
+flavored = null;
+
 var slider = document.getElementById("sweet-range");
 var slider2 = document.getElementById("strength-range");
 
@@ -41,9 +46,9 @@ function setFrozen() {
   document.getElementById("frozen").style.color = "red";
 }
 
-var flavored = document.getElementById("flavored");
+var flavoredClick = document.getElementById("flavored");
 var unflavored = document.getElementById("unflavored");
-flavored.addEventListener("click", setFlavored);
+flavoredClick.addEventListener("click", setFlavored);
 unflavored.addEventListener("click", setUnflavored);
 
 function setFlavored() {
@@ -100,30 +105,30 @@ function display() {
   if (temp=="cold" && sweetness<20 && 30<strength && strength<50 && !flavored) {
     document.getElementById("iced-coffee").style.display = "inherit";
   }
-  if ((temp=="hot" || null) && (sweetness<20 || null) && (80<strength || null) && (!flavored || null)) {
+  if ((temp=="hot" || temp == null) && (sweetness<20 || sweetness == null) && (80<strength || strength == null) && (!flavored || flavored == null)) {
     document.getElementById("espresso").style.display = "inherit";
   }
-  if ((temp=="hot" || null) && ((10<sweetness && sweetness<30) || null) && ((60<strength && strength<80) || null) && (!flavored || null)) {
+  if ((temp=="cold" || temp == null) && ((10<sweetness && sweetness<30) || sweetness == null) && ((60<strength && strength<80) || strength == null) && (!flavored || flavored == null)) {
+    document.getElementById("macchiato").style.display = "inherit";
+    document.getElementById("macchiato").textContent = "Iced Macchiato";
+  }
+  if ((temp=="hot" || temp == null) && ((10<sweetness && sweetness<30) || sweetness == null) && ((60<strength && strength<80) || strength == null) && (!flavored || flavored == null)) {
     document.getElementById("macchiato").style.display = "inherit";
     document.getElementById("macchiato").textContent = "Macchiato";
   }
-  if ((temp=="cold" || null) && ((10<sweetness && sweetness<30) || null) && ((60<strength && strength<80) || null) && (!flavored || null)) {
-    document.getElementById("macchiato").style.display = "inherit";
-    document.getElementById("macchiato").textContent = "Cold Macchiato";
-  }
-  if ((temp=="hot" || null) && ((40<sweetness && sweetness<60) || null) && ((50<strength && strength<70) || null) && (!flavored || null)) {
+  if ((temp=="hot" || temp == null) && ((40<sweetness && sweetness<60) || sweetness == null) && ((50<strength && strength<70) || strength == null) && (!flavored || flavored == null)) {
     document.getElementById("capp").style.display = "inherit";
   }
-  if ((temp=="hot" || null) && ((10<sweetness && sweetness<30) || null) && ((50<strength && strength<70) || null) && (!flavored || null)) {
+  if ((temp=="hot" || temp == null) && ((10<sweetness && sweetness<30) || sweetness == null) && ((50<strength && strength<70) || strength == null) && (!flavored || flavored == null)) {
     document.getElementById("americano").style.display = "inherit";
   }
-  if ((temp=="hot" || null) && ((40<sweetness && sweetness<60) || null) && ((30<strength && strength<50) || null) && (!flavored || null)) {
+  if ((temp=="hot" || temp == null) && ((40<sweetness && sweetness<60) || sweetness == null) && ((30<strength && strength<50) || strength == null) && (!flavored || flavored == null)) {
     document.getElementById("breve").style.display = "inherit";
   }
-  if ((temp=="hot" || null) && (80<sweetness || null) && (strength<20 || null) && (flavored || null)) {
+  if ((temp=="hot" || temp == null) && (80<sweetness || sweetness == null) && (strength<20 || strength == null) && (flavored || flavored == null)) {
     document.getElementById("hot-chocolate").style.display = "inherit";
   }
-  if ((temp=="hot" || null) && ((40<sweetness && sweetness<60) || null) && ((40<strength && strength<60) || null) && (!flavored || null)) {
+  if ((temp=="hot" || temp == null) && ((40<sweetness && sweetness<60) || sweetness == null) && ((40<strength && strength<60) || strength == null) && (!flavored || flavor == null)) {
     document.getElementById("flat-white").style.display = "inherit";
   }
 }
