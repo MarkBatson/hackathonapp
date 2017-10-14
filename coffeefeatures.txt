@@ -3,8 +3,9 @@ brief overview of each type of coffee
   flavor attributes
     COLD/HOT/FROZEN
     SWEET 1-10
-    STRENGTH 1-10
+    STRENGTH (Caffeine Amount) 1-10
     FLAVORED/UNFLAVORED
+    PRICE: $-$$$
   ingredients
   amount of caffeine
   nutrition facts
@@ -20,78 +21,94 @@ brief overview of each type of coffee
       SWEET 1-10:
       STRENGTH 1-10:
       FLAVORED/UNFLAVORED:
+      PRICE: $-$$$:
     Bold Drip Coffee
       COLD/HOT/FROZEN:
       SWEET 1-10:
       STRENGTH 1-10:
       FLAVORED/UNFLAVORED:
+      PRICE: $-$$$:
     Regular Drip Coffee
       COLD/HOT/FROZEN:
       SWEET 1-10:
       STRENGTH 1-10:
       FLAVORED/UNFLAVORED:
+      PRICE: $-$$$:
     Flavored Latte
       COLD/HOT/FROZEN:
       SWEET 1-10:
       STRENGTH 1-10:
       FLAVORED/UNFLAVORED:
+      PRICE: $-$$$:
     Unflavored Latte
       COLD/HOT/FROZEN:
       SWEET 1-10:
       STRENGTH 1-10:
       FLAVORED/UNFLAVORED:
+      PRICE: $-$$$:
     Mocha
       COLD/HOT/FROZEN:
       SWEET 1-10:
       STRENGTH 1-10:
       FLAVORED/UNFLAVORED:
+      PRICE: $-$$$:
     Cold Brew
       COLD/HOT/FROZEN:
       SWEET 1-10:
       STRENGTH 1-10:
       FLAVORED/UNFLAVORED:
+      PRICE: $-$$$:
     Iced Coffee
       COLD/HOT/FROZEN:
       SWEET 1-10:
       STRENGTH 1-10:
       FLAVORED/UNFLAVORED:
+      PRICE: $-$$$:
     Espresso
       COLD/HOT/FROZEN:
       SWEET 1-10:
       STRENGTH 1-10:
       FLAVORED/UNFLAVORED:
+      PRICE: $-$$$:
     Macchiato
       COLD/HOT/FROZEN:
       SWEET 1-10:
       STRENGTH 1-10:
       FLAVORED/UNFLAVORED:
+      PRICE: $-$$$:
     Cappuccino
       COLD/HOT/FROZEN:
       SWEET 1-10:
       STRENGTH 1-10:
       FLAVORED/UNFLAVORED:
+      PRICE: $-$$$:
     Americano
       COLD/HOT/FROZEN:
       SWEET 1-10:
       STRENGTH 1-10:
       FLAVORED/UNFLAVORED:
+      PRICE: $-$$$
     Turkish Coffee
       COLD/HOT/FROZEN:
       SWEET 1-10:
       STRENGTH 1-10:
       FLAVORED/UNFLAVORED:
+      PRICE: $-$$$
     Breve
       COLD/HOT/FROZEN:
       SWEET 1-10:
       STRENGTH 1-10:
       FLAVORED/UNFLAVORED:
+      PRICE: $-$$$:
     Hot Chocolate
       COLD/HOT/FROZEN:
       SWEET 1-10:
       STRENGTH 1-10:
       FLAVORED/UNFLAVORED:
+      PRICE: $-$$$:
     Flat White
       COLD/HOT/FROZEN:
       SWEET 1-10:
       STRENGTH 1-10:
       FLAVORED/UNFLAVORED:
+      PRICE: $-$$$:
