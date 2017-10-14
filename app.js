@@ -1,7 +1,7 @@
-var temp;
-var sweetness;
-var strength;
-var flavored;
+var temp = null;
+var sweetness = null;
+var strength = null;
+var flavored = null;
 var unflavored;
 
 var slider = document.getElementById("sweet-range");
@@ -41,9 +41,9 @@ function setFrozen() {
   document.getElementById("frozen").style.color = "red";
 }
 
-var flavored = document.getElementById("flavored");
+var flavoredClick = document.getElementById("flavored");
 var unflavored = document.getElementById("unflavored");
-flavored.addEventListener("click", setFlavored);
+flavoredClick.addEventListener("click", setFlavored);
 unflavored.addEventListener("click", setUnflavored);
 
 function setFlavored() {
@@ -66,38 +66,42 @@ function display() {
   console.clear();
   console.log("Sweetness: " + sweetness);
   console.log("Strength: " + strength);
+  console.log(temp);
+  console.log(sweetness);
+  console.log(strength);
+  console.log(flavored);
 
   var coffeeType = document.getElementsByClassName("coffee-type");
   for (var i=0; i<coffeeType.length; i++) {
     coffeeType[i].style.display = "none";
   }
 
-  if (temp=="frozen" && sweetness>80 && 20<strength && strength<40 && flavored) {
+  if ((temp=="frozen" || temp==null) && (sweetness>80 || sweetness==null) && ((20<strength && strength<40) || strength==null) && (flavored || flavored==null)) {
     document.getElementById("frappe").style.display = "inherit";
   }
-  if (temp=="hot" && sweetness<20 && 30<strength && strength<50 && !flavored) {
-    document.getElementById("drip").style.display = "inherit";
-    document.getElementById("drip").textContent = "Drip Coffee";
-  }
-  if (temp=="hot" && sweetness<20 && 50<strength && strength<70 && !flavored) {
+  if ((temp=="hot" || temp==null) && ((sweetness<20 || sweetness==null)) && ((50<strength && strength<70) || strength==null) && (!flavored || flavored==null)) {
     document.getElementById("drip").style.display = "inherit";
     document.getElementById("drip").textContent = "Bold Drip Coffee";
   }
-  if (temp=="hot" && 60<sweetness && sweetness<80 && 30<strength && strength<50 && flavored) {
+  if ((temp=="hot" || temp==null) && (sweetness<20 || sweetness==null) && ((30<strength && strength<50) || strength==null) && (!flavored || flavored==null)) {
+    document.getElementById("drip").style.display = "inherit";
+    document.getElementById("drip").textContent = "Drip Coffee";
+  }
+  if ((temp=="hot" || temp==null) && ((60<sweetness && sweetness<80) || sweetness==null) && ((30<strength && strength<50) || strength==null) && (flavored || flavored==null)) {
     document.getElementById("latte").style.display = "inherit";
     document.getElementById("latte").textContent = "Flavored Latte";
   }
-  if (temp=="hot" && 40<sweetness && sweetness<60 && 30<strength && strength<50 && !flavored) {
+  if ((temp=="hot" || temp==null) && ((40<sweetness && sweetness<60) || sweetness==null) && ((30<strength && strength<50) || strength==null) && (!flavored || flavored==null)) {
     document.getElementById("latte").style.display = "inherit";
-    document.getElementById("latte").textContent = "Unflavored Latte";
+    document.getElementById("latte").textContent = "Latte";
   }
-  if (temp=="hot" && 70<sweetness && sweetness<90 && 20<strength && strength<40 && flavored) {
+  if ((temp=="hot" || temp==null) && ((70<sweetness && sweetness<90) || sweetness==null) && ((20<strength && strength<40) || strength==null) && (flavored || flavored==null)) {
     document.getElementById("mocha").style.display = "inherit";
   }
-  if (temp=="cold" && 50<sweetness && sweetness<70 && 60<strength && strength<80 && !flavored) {
+  if ((temp=="cold" || temp==null) && ((50<sweetness && sweetness<70) || sweetness==null) && ((60<strength && strength<80) || strength==null) && (!flavored || flavored==null)) {
     document.getElementById("cold-brew").style.display = "inherit";
   }
-  if (temp=="cold" && sweetness<20 && 30<strength && strength<50 && !flavored) {
+  if ((temp=="cold" || temp==null) && (sweetness<20 || temp==null) && ((30<strength && strength<50) || strength==null) && (!flavored || flavored==null)) {
     document.getElementById("iced-coffee").style.display = "inherit";
   }
   if (temp=="hot" && sweetness<20 && 80<strength && !flavored) {
