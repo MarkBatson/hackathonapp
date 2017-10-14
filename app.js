@@ -2,6 +2,7 @@ var temp;
 var sweetness;
 var strength;
 var flavored;
+var unflavored;
 
 var slider = document.getElementById("sweet-range");
 var slider2 = document.getElementById("strength-range");
@@ -40,8 +41,8 @@ function setFrozen() {
   document.getElementById("frozen").style.color = "red";
 }
 
-var cold = document.getElementById("flavored");
-var hot = document.getElementById("unflavored");
+var flavored = document.getElementById("flavored");
+var unflavored = document.getElementById("unflavored");
 flavored.addEventListener("click", setFlavored);
 unflavored.addEventListener("click", setUnflavored);
 
