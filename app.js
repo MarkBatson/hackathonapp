@@ -57,12 +57,6 @@ function setUnflavored() {
   document.getElementById("unflavored").style.color = "red";
 }
 
-var $ = document.getElementById("one");
-var $$ = document.getElementById("two");
-var $$$ = document.getElementById("three");
-$.addEventListener("click", set$);
-$$.addEventListener("click", set$$);
-$$$.addEventListener("click", set$$$);
 
 var search = document.getElementById("button");
 search.addEventListener("click", display);
@@ -113,7 +107,7 @@ function display() {
     document.getElementById("macchiato").style.display = "inherit";
     document.getElementById("macchiato").textContent = "Macchiato";
   }
-  if (temp=="cold" && 10<sweetness && sweetness<30 && 40<strength && strength<60 && !flavored) {
+  if (temp=="cold" && 10<sweetness && sweetness<30 && 60<strength && strength<80 && !flavored) {
     document.getElementById("macchiato").style.display = "inherit";
     document.getElementById("macchiato").textContent = "Cold Macchiato";
   }
