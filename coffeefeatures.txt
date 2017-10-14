@@ -2,9 +2,9 @@ show what goes into each type of coffee
 brief overview of each type of coffee
   flavor attributes
     COLD/HOT/FROZEN
-    SWEET/NOT SWEET
+    SWEET 1-10
     STRENGTH 1-10
-    COFFEE TASTE 1-10
+    FLAVORED/UNFLAVORED
   ingredients
   amount of caffeine
   nutrition facts
@@ -15,55 +15,83 @@ brief overview of each type of coffee
 
 
   COFFEE TYPES:
-  Cold Brew/Iced Coffee
+    Frappe
+      COLD/HOT/FROZEN:
+      SWEET 1-10:
+      STRENGTH 1-10:
+      FLAVORED/UNFLAVORED:
+    Bold Drip Coffee
+      COLD/HOT/FROZEN:
+      SWEET 1-10:
+      STRENGTH 1-10:
+      FLAVORED/UNFLAVORED:
+    Regular Drip Coffee
+      COLD/HOT/FROZEN:
+      SWEET 1-10:
+      STRENGTH 1-10:
+      FLAVORED/UNFLAVORED:
+    Flavored Latte
+      COLD/HOT/FROZEN:
+      SWEET 1-10:
+      STRENGTH 1-10:
+      FLAVORED/UNFLAVORED:
+    Unflavored Latte
+      COLD/HOT/FROZEN:
+      SWEET 1-10:
+      STRENGTH 1-10:
+      FLAVORED/UNFLAVORED:
+    Mocha
+      COLD/HOT/FROZEN:
+      SWEET 1-10:
+      STRENGTH 1-10:
+      FLAVORED/UNFLAVORED:
+    Cold Brew
+      COLD/HOT/FROZEN:
+      SWEET 1-10:
+      STRENGTH 1-10:
+      FLAVORED/UNFLAVORED:
     Iced Coffee
-    Vanilla Cold Brew
-    Coconut Cold Brew
-    Iced Caffee Americano (Espresso)
-    Iced Caffe Latte (Espresso)
-    Iced Caffe Mocha (Espresso)
-    Iced Carmel Macchiato (Espresso)
-    Iced Maple Pecan Latte (Espresso)
-    Iced Cinnamon Dolce Latte (Espresso)
-    Iced Latte Macchiato (Espresso)
-    Iced Pumpkin Spice Chai Latte (Espresso)
-    Iced Pumpkin Spice Latte (Espresso)
-    Iced Salted Caramel Mocha (Espresso)
-    Iced Skinny Mocha (Espresso)
-    Iced Vanilla Latte (Espresso)
-    Iced White Chocolate Mocha (Espresso)
-  Basic Coffee
-    Blonde Roast
-    Dark Roast
-    Caffe Misto
-  Espresso
-    Caffe Americano
-    Caffe Latte
-    Caffe Mocha
-    Cappuccino
-    Carmel Machiato
-    Cinnamon Dolce Latte
+      COLD/HOT/FROZEN:
+      SWEET 1-10:
+      STRENGTH 1-10:
+      FLAVORED/UNFLAVORED:
     Espresso
-    Espresso Con Panna
-    Espresso Macchiato
+      COLD/HOT/FROZEN:
+      SWEET 1-10:
+      STRENGTH 1-10:
+      FLAVORED/UNFLAVORED:
+    Macchiato
+      COLD/HOT/FROZEN:
+      SWEET 1-10:
+      STRENGTH 1-10:
+      FLAVORED/UNFLAVORED:
+    Cappuccino
+      COLD/HOT/FROZEN:
+      SWEET 1-10:
+      STRENGTH 1-10:
+      FLAVORED/UNFLAVORED:
+    Americano
+      COLD/HOT/FROZEN:
+      SWEET 1-10:
+      STRENGTH 1-10:
+      FLAVORED/UNFLAVORED:
+    Turkish Coffee
+      COLD/HOT/FROZEN:
+      SWEET 1-10:
+      STRENGTH 1-10:
+      FLAVORED/UNFLAVORED:
+    Breve
+      COLD/HOT/FROZEN:
+      SWEET 1-10:
+      STRENGTH 1-10:
+      FLAVORED/UNFLAVORED:
+    Hot Chocolate
+      COLD/HOT/FROZEN:
+      SWEET 1-10:
+      STRENGTH 1-10:
+      FLAVORED/UNFLAVORED:
     Flat White
-    Latte Macchiato
-    Maple Pecan Creme
-    Maple Pecan Latte
-    Pumpkin Spice Chai Tea Latte
-    Pumpkin Spice Latte
-    Salted Caramel Mocha
-    Skinny Mocha
-    Vanilla Latte
-    White Chocolate Mocha
-  Frappe
-    Vanilla
-    Caramel Cocoa
-    Caramel
-    Chai Creme
-    Cinnamon Dolce
-    Cinnamon Roll
-    Cupcake Creme
-    Green Tea
-    Java Chip
-    Pumpkin Spice
+      COLD/HOT/FROZEN:
+      SWEET 1-10:
+      STRENGTH 1-10:
+      FLAVORED/UNFLAVORED:
