@@ -41,8 +41,8 @@ function setFrozen() {
   document.getElementById("frozen").style.color = "red";
 }
 
-var cold = document.getElementById("flavored");
-var hot = document.getElementById("unflavored");
+var flavored = document.getElementById("flavored");
+var unflavored = document.getElementById("unflavored");
 flavored.addEventListener("click", setFlavored);
 unflavored.addEventListener("click", setUnflavored);
 
@@ -152,4 +152,34 @@ function display() {
   if (temp=="hot" && 45<sweetness && sweetness<55 && 45<strength && strength<55 && !flavored && price==2) {
     document.getElementById("flat-white").style.display = "inherit";
   }
+}
+
+var reset = document.getElementById("button2");
+reset.addEventListener("click", resetPage);
+
+function resetPage() {
+  var coffeeType = document.getElementsByClassName("coffee-type");
+  for (var i=0; i<coffeeType.length; i++) {
+    coffeeType[i].style.display = "none";
+  }
+
+  document.getElementById("sweet-range").value = 50;
+  document.getElementById("strength-range").value = 50;
+
+  temp = null;
+  sweetness = null;
+  strength = null;
+  flavored = null;
+
+  document.getElementById("flavored").style.color = "black";
+  document.getElementById("unflavored").style.color = "black";
+  document.getElementById("cold").style.color = "black";
+  document.getElementById("hot").style.color = "black";
+  document.getElementById("frozen").style.color = "black";
+
+
+  console.log(temp);
+  console.log(sweetness);
+  console.log(strength);
+  console.log(flavored);
 }
