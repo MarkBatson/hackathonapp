@@ -1,9 +1,14 @@
 show what goes into each type of coffee
 brief overview of each type of coffee
   flavor attributes
+    COLD/HOT/FROZEN
+    SWEET/NOT SWEET
+    STRENGTH
+    COFFEE TASTE 1-10
   ingredients
   amount of caffeine
   nutrition facts
   actual flavor
   related to
   compare?
+  coffee shops near you
