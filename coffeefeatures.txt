@@ -17,7 +17,7 @@ brief overview of each type of coffee
 
   COFFEE TYPES:
     Frappe
-      COLD/HOT/FROZEN: FROZEN
+      COLD/HOT/FROZEN: FROZENp
       SWEET 1-10: 10
       STRENGTH 1-10: 3
       FLAVORED/UNFLAVORED: FLAVORED
