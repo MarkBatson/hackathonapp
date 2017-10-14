@@ -5,13 +5,6 @@ brief overview of each type of coffee
     SWEET/NOT SWEET
     STRENGTH 1-10
     COFFEE TASTE 1-10
-    FLAVORS
-      SWEET
-      BITTER
-      NUTTY
-      CARMELLY
-      CHOCOLATLY
-      SPICY
   ingredients
   amount of caffeine
   nutrition facts
@@ -24,7 +17,6 @@ brief overview of each type of coffee
   COFFEE TYPES:
   Cold Brew/Iced Coffee
     Iced Coffee
-    Iced Coffee With Milk
     Vanilla Cold Brew
     Coconut Cold Brew
     Iced Caffee Americano (Espresso)
