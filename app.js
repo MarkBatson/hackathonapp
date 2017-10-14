@@ -100,30 +100,30 @@ function display() {
   if (temp=="cold" && sweetness<20 && 30<strength && strength<50 && !flavored) {
     document.getElementById("iced-coffee").style.display = "inherit";
   }
-  if (temp=="hot" && sweetness<20 && 80<strength && !flavored) {
+  if ((temp=="hot" || null) && (sweetness<20 || null) && (80<strength || null) && (!flavored || null)) {
     document.getElementById("espresso").style.display = "inherit";
   }
-  if (temp=="hot" && 10<sweetness && sweetness<30 && 60<strength && strength<80 && !flavored) {
+  if ((temp=="hot" || null) && ((10<sweetness && sweetness<30) || null) && ((60<strength && strength<80) || null) && (!flavored || null)) {
     document.getElementById("macchiato").style.display = "inherit";
     document.getElementById("macchiato").textContent = "Macchiato";
   }
-  if (temp=="cold" && 10<sweetness && sweetness<30 && 60<strength && strength<80 && !flavored) {
+  if ((temp=="cold" || null) && ((10<sweetness && sweetness<30) || null) && ((60<strength && strength<80) || null) && (!flavored || null)) {
     document.getElementById("macchiato").style.display = "inherit";
     document.getElementById("macchiato").textContent = "Cold Macchiato";
   }
-  if (temp=="hot" && 40<sweetness && sweetness<60 && 50<strength && strength<70 && !flavored) {
+  if ((temp=="hot" || null) && ((40<sweetness && sweetness<60) || null) && ((50<strength && strength<70) || null) && (!flavored || null)) {
     document.getElementById("capp").style.display = "inherit";
   }
-  if (temp=="hot" && 10<sweetness && sweetness<30 && 50<strength && strength<70 && !flavored) {
+  if ((temp=="hot" || null) && ((10<sweetness && sweetness<30) || null) && ((50<strength && strength<70) || null) && (!flavored || null)) {
     document.getElementById("americano").style.display = "inherit";
   }
-  if (temp=="hot" && 40<sweetness && sweetness<60 && 30<strength && strength<50 && !flavored) {
+  if ((temp=="hot" || null) && ((40<sweetness && sweetness<60) || null) && ((30<strength && strength<50) || null) && (!flavored || null)) {
     document.getElementById("breve").style.display = "inherit";
   }
-  if (temp=="hot" && 80<sweetness && strength<20 && flavored) {
+  if ((temp=="hot" || null) && (80<sweetness || null) && (strength<20 || null) && (flavored || null)) {
     document.getElementById("hot-chocolate").style.display = "inherit";
   }
-  if (temp=="hot" && 40<sweetness && sweetness<60 && 40<strength && strength<60 && !flavored) {
+  if ((temp=="hot" || null) && ((40<sweetness && sweetness<60) || null) && ((40<strength && strength<60) || null) && (!flavored || null)) {
     document.getElementById("flat-white").style.display = "inherit";
   }
 }
