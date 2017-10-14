@@ -106,11 +106,7 @@ function display() {
   if ((temp=="cold" || temp==null) && ((40<=sweetness && sweetness<=60) || sweetness==null) && ((60<=strength && strength<=80) || strength==null) && (!flavored || flavored==null)) {
     document.getElementById("cold-brew").style.display = "inherit";
   }
-<<<<<<< HEAD
-  if ((temp=="cold" || temp==null) && (sweetness<=20 || temp==null) && ((40<=strength && strength<=60) || strength==null) && (!flavored || flavored==null)) {
-=======
-  if ((temp=="cold" || temp==null) && (sweetness<20 || sweetness==null) && ((30<strength && strength<50) || strength==null) && (!flavored || flavored==null)) {
->>>>>>> 220679c5b6ebe198b71e3fae473ccf9659fdae2a
+  if ((temp=="cold" || temp==null) && (sweetness<=20 || sweetness==null) && ((40<=strength && strength<=60) || strength==null) && (!flavored || flavored==null)) {
     document.getElementById("iced-coffee").style.display = "inherit";
   }
   if ((temp=="hot" || temp == null) && (sweetness<=20 || sweetness == null) && (80<=strength || strength == null) && (!flavored || flavored == null)) {
