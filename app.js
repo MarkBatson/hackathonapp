@@ -129,7 +129,7 @@ function display() {
   if (temp=="hot" && sweetness<10 && 90<strength && !flavored && price==1) {
     document.getElementById("espresso").style.display = "inherit";
   }
-  if (temp=="hot" && 15<sweetness && sweetness<25 && 75<strength && strength<85 && !flavored && price==1) {
+  if (temp=="hot" && 15<sweetness && sweetness<25 && 65<strength && strength<75 && !flavored && price==1) {
     document.getElementById("macchiato").style.display = "inherit";
     document.getElementById("macchiato").textContent = "Macchiato";
   }
