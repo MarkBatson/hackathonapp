@@ -1,0 +1,9 @@
+show what goes into each type of coffee
+brief overview of each type of coffee
+  flavor attributes
+  ingredients
+  amount of caffeine
+  nutrition facts
+  actual flavor
+  related to
+  compare?
