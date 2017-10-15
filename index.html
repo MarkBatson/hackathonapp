@@ -7,43 +7,66 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!--
-    Cold/hot/frozen
-    sweet slider
-    strength slider
-    flavored/unflavored
-    price $ $$ $$$
-    -->
-    <div><h3 id="temp">Temperature</h3><h3 id="cold">Cold</h3><h3 id="hot">Hot</h3><h3 id="frozen">Frozen</h3></div>
+    <div class="drop-down" id="drop-down">
 
-    <h3>Sweetness</h3>
-    <div id="sweet-slide">
-      <input type="range" min="1" max="100" value="50" class="slider" id="sweet-range">
+      <div class="coffee-stats">
+        <div class="flex-stats">
+          <h2 class="descriptor">TEMPERATURE</h2>
+          <img class="snow-img" src="coffee_assets/snow.svg"></img>
+          <h2 class="temp-options" id="hot">HOT</h2>
+          <h2 class="temp-options" id="cold">COLD</h2>
+          <h2 class="temp-options" id="frozen">FROZEN</h2>
+        </div>
+        <div class="flex-stats">
+          <h2 class="descriptor">SWEETNESS</h2>
+          <img class="sugar-img" src="coffee_assets/sugar.svg"></img>
+          <!--slider goes here-->
+          <input type="range" min="1" max="100" value="50" class="slider" id="sweet-range">
+        </div>
+        <div class="flex-stats">
+          <h2 class="descriptor">STRENGTH</h2>
+          <img class="strength-img" src="coffee_assets/strength.svg"></img>
+          <!--slider goes here-->
+          <input type="range" min="1" max="100" value="50" class="slider" id="strength-range">
+        </div>
+        <div class="flex-flavoring">
+          <h2 class="descriptor">FLAVORING</h2>
+          <img class="flavor-img" src="coffee_assets/flavored.svg"></img>
+          <p class = "yes" id="flavored">YES</p><div class="relative"><hr class="yes-no-line" color="#C1883D" /></div><p class = "no" id="unflavored">NO</p>
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="button2">Reset</button>
+        <button id="button">Go!</button>
+      </div>
     </div>
 
-    <h3>Strength</h3>
-    <div id="strength-slide">
-      <input type="range" min="1" max="100" value="50" class="slider" id="strength-range">
+    <div class="navbar">
+      <img id="exit-drop" src="coffee_assets/x.svg"/>
+      <h3 class="perfect-cup" id="mostperfect">Help me find my perfect cup</h3><img src="coffee_assets/magnifyingglass.svg"/>
+    </div>
+    <div class="main">
+      <p>The no frills, definitive guide to all things coffee.
+        Brush up on your coffee knowledge by browsing below or
+        let us help you find what you're in the mood for with
+        our personalized search bar above!</p>
     </div>
 
-    <div><h3 id="flavored">Flavored</h3><h3 id="unflavored">Unflavored</h3></div>
+    <div class="flex-container">
+      <div class="flex-item" id="americano"><a href="CoffeeTypesInfo/AmericanoInfo.html"><img class="home-svg" src="coffee_images/mainpageframes/frame1.svg"></a></div>
+      <div class="flex-item" id="breve"><a href="CoffeeTypesInfo/BreveInfo.html"><img class="home-svg" src="coffee_images/mainpageframes/frame2new.svg"></a></div>
+      <div class="flex-item" id="capp"><a href="CoffeeTypesInfo/CappuccinoInfo.html"><img class="home-svg" src="coffee_images/mainpageframes/frame3.svg"></a></div>
+      <div class="flex-item" id="cold-brew"><a href="CoffeeTypesInfo/ColdBrewInfo.html"><img class="home-svg" src="coffee_images/mainpageframes/frame4.svg"></a></div>
+      <div class="flex-item" id="drip"><a href="CoffeeTypesInfo/BoldDripInfo.html"><img class="home-svg" src="coffee_images/mainpageframes/frame5.svg"></a></div>
+      <div class="flex-item" id="espresso"><a href="CoffeeTypesInfo/EspressoInfo.html"><img class="home-svg" src="coffee_images/mainpageframes/frame6new.svg"></a></div>
+      <div class="flex-item" id="flat-white"><a href="CoffeeTypesInfo/FlatWhiteInfo.html"><img class="home-svg" src="coffee_images/mainpageframes/frame7.svg"></a></div>
+      <div class="flex-item" id="frappe"><a href="CoffeeTypesInfo/FrappeInfo.html"><img class="home-svg" src="coffee_images/mainpageframes/frame8.svg"></a></div>
+      <div class="flex-item" id="iced-coffee"><a href="CoffeeTypesInfo/IcedCoffeeInfo.html"><img class="home-svg" src="coffee_images/mainpageframes/frame9.svg"></a></div>
+      <div class="flex-item" id="latte"><a href="CoffeeTypesInfo/UnflavoredLatteInfo.html"><img class="home-svg" src="coffee_images/mainpageframes/frame10.svg"></a></div>
+      <div class="flex-item" id="macchiato"><a href="CoffeeTypesInfo/MacchiatoInfo.html"><img class="home-svg" src="coffee_images/mainpageframes/frame11.svg"></a></div>
+      <div class="flex-item" id="mocha"><a href="CoffeeTypesInfo/MochaInfo.html"><img class="home-svg" src="coffee_images/mainpageframes/frame12.svg"></a></div>
+    </div>
 
-    <button id="button">Find</button>
-    <button id="button2">Reset</button>
-
-    <a href="CoffeeTypesInfo/FrappeInfo.html"><h1 class="coffee-type" id="frappe">Frappe</h1></a>
-    <a href="CoffeeTypesInfo/BoldDripInfo.html"><h1 class="coffee-type" id="drip">Drip Coffee</h1></a>
-    <a href="CoffeeTypesInfo/UnflavoredLatteInfo.html"><h1 class="coffee-type" id="latte">Latte</h1></a>
-    <a href="CoffeeTypesInfo/MochaInfo.html"><h1 class="coffee-type" id="mocha">Mocha</h1><a>
-    <a href="CoffeeTypesInfo/ColdBrewInfo.html"><h1 class="coffee-type" id="cold-brew">Cold Brew</h1></a>
-    <a href="CoffeeTypesInfo/IcedCoffeeInfo.html"><h1 class="coffee-type" id="iced-coffee">Iced Coffee</h1></a>
-    <a href="CoffeeTypesInfo/EspressoInfo.html"><h1 class="coffee-type" id="espresso">Espresso</h1></a>
-    <a href="CoffeeTypesInfo/MacchiatoInfo.html"><h1 class="coffee-type" id="macchiato">Macchiato</h1></a>
-    <a href="CoffeeTypesInfo/CappuccinoInfo.html"><h1 class="coffee-type" id="capp">Cappuccino</h1></a>
-    <a href="CoffeeTypesInfo/AmericanoInfo.html"><h1 class="coffee-type" id="americano">Americano</h1></a>
-    <a href="CoffeeTypesInfo/BreveInfo.html"><h1 class="coffee-type" id="breve">Breve</h1></a>
-    <a href="CoffeeTypesInfo/HotChocolateInfo.html"><h1 class="coffee-type" id="hot-chocolate">Hot Chocolate</h1></a>
-    <a href="CoffeeTypesInfo/FlatWhiteInfo.html"><h1 class="coffee-type" id="flat-white">Flat White</h1></a>
 
   </body>
   <script src="app.js"></script>
